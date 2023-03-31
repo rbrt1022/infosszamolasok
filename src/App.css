@@ -1,38 +1,40 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-image: url(IMG/body-back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.feher{
+  background-color: lightgreen;
+  opacity: 0.35;
+  height: 15rem;
+  margin-top: 5rem;
+  border-radius: 20px;
+  width: 96vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#tizesbol, #kettesbol, #tizenhatosbol{
+  opacity: 1;
+  position: relative;
+  top: -15rem;
+  margin-bottom: -15rem;
+  height: 15rem;
+  width: 96vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  /*border: 2px solid green;*/
+  border-radius: 20px;
+  /*color: black;*/
 }
