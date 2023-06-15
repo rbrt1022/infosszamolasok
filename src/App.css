@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  background-image: url(IMG/neon-tropical-monstera-leaf-banner_53876-138943.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+body {
+  overflow: hidden;
+  color: white;
+}
+
+#tartalom{
+  overflow-x: auto;
+  overflow-y: none;
+}
+
+.kozepre{
+  margin: auto;
+  padding: auto;
+  vertical-align: baseline;
+}
+
+::-webkit-scrollbar{
+  width: 1vw;
+  background-color: black;
+  border-radius: 10px;
+  /* display: none; */
+
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+#Atvaltos{
+  /*height: calc(100% - 15rem);*/
+  height: 100%;
+}
+
+.beiros{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: white;
+}
+
+.beiros::after{
+  border: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.gomb{
+  background-color: transparent;
+  color: white;
+  border: #fff solid 2px;
+  border-radius: 10px;
+}
+
+.gomb:hover{
+  background-color: aqua;
+  color: black;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+
+/*.feher{
+  background-color: lightgreen;
+  opacity: 0.35;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  border-radius: 20px;
+}*/
+
+
+@media (min-width: 769px) {
+  .feher{
+    width: 96vw;
+  }
+
+  #root{
+    padding-top: 0px;
+  }
+
+  #tartalom{
+    height: 90vh;
+  }
+
+  h2{
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .feher{
+    width: 96vw;
+  }
+
+  #root{
+    padding-top: 0px;
+  }
+  /*A görgethetőség miatt
+  Menüelemek számának módosításával ezt is kell módosítani*/
+  .zartmenu{
+    height: 81vh;
+  }
+
+  .nyitottmenu{
+    height: 51vh;
+  }
+
+  h2{
+    font-size: 21.5px;
+  }
+
+  .utolso{
+    height: 5vh;
+  }
+}

@@ -1,0 +1,82 @@
+#menusor{
+    list-style-type: none;
+    padding: 0;
+}
+
+#fejlec{
+    background-color: darkblue;
+    text-align: left;
+    top: 0;
+    position:sticky;
+    opacity: 1;
+}
+
+.menuelem{
+    margin: 0;
+    font-size: large;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.menuelem:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#cim{
+    margin: 0;
+}
+
+@media (min-width: 769px) {
+    #fejlec{
+        display: inline-flex;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .menuelem{
+        font-size: large;
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #cim{
+        text-align: center;
+        height: 9vh;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+        font-size: 6vh;
+        margin: auto;
+    }
+
+    .eltunik{
+        display: none;
+    }
+
+    .megjelenjeeel{
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .menuelem{
+        width: 90vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 4.25vh;
+        height: 6vh;
+    }
+}

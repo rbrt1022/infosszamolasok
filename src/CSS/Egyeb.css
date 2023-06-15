@@ -1,0 +1,36 @@
+.feherlink{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    text-align: left;
+    color: black;
+}
+
+.feherlink:hover{
+    background-color: rgba(0, 150, 255, 0.75);
+    color: white;
+}
+
+#alhbelsomenu{
+    text-align: left;
+}
+
+select option{
+    background: none;
+}
+
+@media (max-width: 768px) {
+    #alhbelsomenu{
+        text-align: center;
+        font-size: 2.7vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .binary{
+        font-size: 4vw;
+    }
+}
