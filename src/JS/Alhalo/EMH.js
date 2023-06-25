@@ -237,7 +237,7 @@ const EMH = () => {
             <div id="Egyenlo" >
                 <div class="enyhezold">
                     <h2>Felbontandó hálózat címe: <input className="beiros" id="halo" type="text" placeholder="Írjad bé!" /></h2>
-                    <h2>Egyenlő nagyságú alhálózatok száma: <input className="beiros" id="haloksz" placeholder="Írjad bé!" type="text" /></h2>
+                    <h2>Egyenlő nagyságú alhálózatok száma: <input className="beiros" id="haloksz" placeholder="Írjad bé!" type="number" /></h2>
                     <h2><label for="alhm">Állomásoknak szánt IP címek száma: </label>
                         <select id="alhm" name="alhalomeret">
                             <option value="2">2</option>
