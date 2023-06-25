@@ -8,7 +8,7 @@ import Alhalo from './JS/Tartalom/Alhalo';
 import "./CSS/Alhalo.css"
 import "./CSS/Atvalto.css"
 import "./CSS/Egyeb.css"
-import EM from './JS/Alhalo/EM';
+import EMH from './JS/Alhalo/EMH';
 import IPALH from './JS/Alhalo/IPinAlh';
 
 
@@ -24,7 +24,7 @@ function App() {
                 <Route path="/" element={<Kezdolap />}/>
                 <Route path="/sza" element={<Atvalto />}/>
                 <Route path="/alh" element={<Alhalo />}/>
-                <Route path="/alh/em" element={<EM />}/>
+                <Route path="/alh/em" element={<EMH />}/>
                 <Route path="/alh/ipinalh" element={<IPALH />}/>
               </Routes>
           </div>

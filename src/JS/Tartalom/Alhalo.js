@@ -1,7 +1,7 @@
 import React from "react";
 //import "../../CSS/"
 //import Egyenlo from "./Alhalo/Egyenlo";
-import EM from "../Alhalo/EM";
+import EMH from "../Alhalo/EM";
 import IPALH from "../Alhalo/IPinAlh";
 import { Link } from "react-router-dom";
 //import { Routes, Route, HashRouter, useRoutes } from "react-router-dom";
@@ -13,7 +13,7 @@ const Alhalo = () => {
         <div id="Alhalo">
             <h1>Alhálózatszámítás</h1>
             <div id="alhbelsomenu">
-                <Link to="/alh/EM" className="feherlink">Egyenlő méretű alhálózatok számítása</Link>
+                <Link to="/alh/em" className="feherlink">Egyenlő méretű alhálózatok számítása</Link>
                 <Link to="/alh/ipinalh" className="feherlink">Alhálózati cím kiderítése</Link>
             </div>
             {/* <HashRouter basename="/alh">
