@@ -25,3 +25,15 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.csutkafeher{
+  background-color: green;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+
+.csutkafeher h2{
+  font-size:x-large;
+}

@@ -10,6 +10,7 @@ import "./CSS/Atvalto.css"
 import "./CSS/Egyeb.css"
 import EMH from './JS/Alhalo/EMH';
 import IPALH from './JS/Alhalo/IPinAlh';
+import KMH from './JS/Alhalo/KMH';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/alh" element={<Alhalo />}/>
                 <Route path="/alh/em" element={<EMH />}/>
                 <Route path="/alh/ipinalh" element={<IPALH />}/>
+                <Route path="/alh/kmh" element={<KMH />}/>
               </Routes>
           </div>
         </div>

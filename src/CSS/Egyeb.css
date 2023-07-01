@@ -21,6 +21,18 @@ select option{
     background: none;
 }
 
+#plusz{
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#plusz:hover{
+    background-color: aqua;
+    color: black
+}
+
 @media (max-width: 768px) {
     #alhbelsomenu{
         text-align: center;
@@ -33,4 +45,6 @@ select option{
     .binary{
         font-size: 4vw;
     }
+
+    
 }
