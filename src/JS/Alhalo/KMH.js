@@ -7,8 +7,21 @@ const KMH = () => {
     function hozzaad(){
         alhsz++
         console.log(alhsz)
-        const hozzaados = document.getElementsByClassName("szerkesztos")
-        
+        const hozzaados = document.getElementById("alhcuccos")
+        hozzaados.innerHTML +=
+        `<div class="csutkafeher">
+            <h2><label for="alhm">`+alhsz+`. alhálózat -  Állomásoknak szánt IP címek száma: </label>
+                <select id="alhm" name="alhalomeret">
+                    <option value="2">2</option>
+                    <option value="6">6</option>
+                    <option value="14">14</option>
+                    <option value="30">30</option>
+                    <option value="62">62</option>
+                    <option value="126">126</option>
+                    <option value="254">254</option>
+                </select>
+            </h2>
+        </div>`
     }
 
     function KF(){
