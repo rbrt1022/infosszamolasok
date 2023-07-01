@@ -11,7 +11,7 @@ const KMH = () => {
         hozzaados.innerHTML +=
         `<div class="csutkafeher">
             <h2><label for="alhm">`+alhsz+`. alhálózat -  Állomásoknak szánt IP címek száma: </label>
-                <select id="alhm" name="alhalomeret">
+                <select class="alhm" name="alhalomeret">
                     <option value="2">2</option>
                     <option value="6">6</option>
                     <option value="14">14</option>
@@ -37,7 +37,7 @@ const KMH = () => {
                     <div id="alhcuccos">
                         <div class="csutkafeher">
                             <h2><label for="alhm">1. alhálózat -  Állomásoknak szánt IP címek száma: </label>
-                                <select id="alhm" name="alhalomeret">
+                                <select className="alhm" name="alhalomeret">
                                     <option value="2">2</option>
                                     <option value="6">6</option>
                                     <option value="14">14</option>
