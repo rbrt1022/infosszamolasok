@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/infosszamolasok/static/css/main.785e9237.css",
-    "main.js": "/infosszamolasok/static/js/main.32e41541.js",
+    "main.css": "/infosszamolasok/static/css/main.e0c10f75.css",
+    "main.js": "/infosszamolasok/static/js/main.75bb4208.js",
     "static/js/787.463022ca.chunk.js": "/infosszamolasok/static/js/787.463022ca.chunk.js",
     "static/media/neon-tropical-monstera-leaf-banner_53876-138943.avif": "/infosszamolasok/static/media/neon-tropical-monstera-leaf-banner_53876-138943.01e188b4cd246300e809.avif",
     "index.html": "/infosszamolasok/index.html",
-    "main.785e9237.css.map": "/infosszamolasok/static/css/main.785e9237.css.map",
-    "main.32e41541.js.map": "/infosszamolasok/static/js/main.32e41541.js.map",
+    "main.e0c10f75.css.map": "/infosszamolasok/static/css/main.e0c10f75.css.map",
+    "main.75bb4208.js.map": "/infosszamolasok/static/js/main.75bb4208.js.map",
     "787.463022ca.chunk.js.map": "/infosszamolasok/static/js/787.463022ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.785e9237.css",
-    "static/js/main.32e41541.js"
+    "static/css/main.e0c10f75.css",
+    "static/js/main.75bb4208.js"
   ]
 }
