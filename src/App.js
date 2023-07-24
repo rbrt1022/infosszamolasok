@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, HashRouter, useRoutes } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Fej from './JS/Fej';
 import Atvalto from './JS/Tartalom/Atvalto';
 import "./App.css";
@@ -27,7 +27,7 @@ function App() {
                 <Route path="/alh" element={<Alhalo />}/>
                 <Route path="/alh/em" element={<EMH />}/>
                 <Route path="/alh/ipinalh" element={<IPALH />}/>
-                <Route path="/alh/kmh" element={<KMH />}/>
+                <Route path="/alh/km" element={<KMH />}/>
               </Routes>
           </div>
         </div>

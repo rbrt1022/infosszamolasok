@@ -37,3 +37,11 @@
 .csutkafeher h2{
   font-size:x-large;
 }
+
+.bordazott{
+  border: solid white 5px;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

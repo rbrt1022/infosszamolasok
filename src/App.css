@@ -104,6 +104,15 @@ margin: 0;
   }
 }
 
+.kezdoszoveg{
+  font-size: 4vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 @media (max-width: 768px) {
   .feher{
     width: 96vw;

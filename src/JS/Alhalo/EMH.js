@@ -19,7 +19,7 @@ const EMH = () => {
         let oktet3 = Number(oktetek[2]);
         let oktet4 = Number(oktetek[3]);
         //Prefix, címosztály és maszk meghatározása
-        let alhm = [0,128,192,224,240,248,252,254,255]
+        //let alhm = [0,128,192,224,240,248,252,254,255]
         //Kitöltendő táblázat bekérése
         const tab = (document.getElementById("tablazat"))
         //Hálózatcím kiszűrése
@@ -88,6 +88,8 @@ const EMH = () => {
 
                     
                     break;
+                default:
+                    break;
             
                 // default:
                 //     tab.innerHTML += 
@@ -113,56 +115,6 @@ const EMH = () => {
             let oktet4s = oktet4, oktet3s = oktet3
             
             for (let index = 0; index < halokszama; index++) {
-            //     console.log("A hálózati cím utolső oktete rendezés nélkül: "+index*halomeret+oktet4)
-            //     if (index===0) {
-            //         haloIP = oktet1+"."+oktet2+"."+oktet3+"."+oktet4
-            //         elsoIP = oktet1+"."+oktet2+"."+oktet3+"."+Number(oktet4+1)
-            //         console.log(oktet4+allomasokszama)
-            //     }
-            //     else{
-            //         if (index*halomeret>256) {
-            //             let tullogoutsookt1 = index*halomeret
-            //             let tullogohokt1 = oktet3 + Math.floor(tullogoutsookt1/256)
-            //             while (tullogoutsookt1 > 255)
-            //             {
-            //                 tullogoutsookt1 -=256                            
-            //             }
-            //             haloIP = oktet1+"."+oktet2+"."+tullogohokt1+"."+tullogoutsookt1
-            //             elsoIP = oktet1+"."+oktet2+"."+tullogohokt1+"."+Number(tullogoutsookt1+1)
-
-            //             oktet3 = tullogohokt1
-            //             oktet4 = tullogoutsookt1
-            //         }
-            //         else
-            //         {
-            //             haloIP = oktet1+"."+oktet2+"."+oktet3+"."+index*(allomasokszama+2)
-            //             elsoIP = oktet1+"."+oktet2+"."+oktet3+"."+Number(index*(allomasokszama+2)+1)
-            //         }
-                                        
-            //     }
-
-            //     //Utolsó IP
-            //     //console.log("Elágazás előtt okt4+áll száma: "+(oktet4+allomasokszama))
-            //     if (oktet4+allomasokszama > 256) {
-            //         let tullogoutsookt = oktet4+allomasokszama
-            //         let tullogohokt = oktet3 + Math.floor(tullogoutsookt/256)
-            //         while (tullogoutsookt > 255) {
-            //             tullogoutsookt -=256                            
-            //         }
-            //         utolsoIP = oktet1+"."+oktet2+"."+tullogohokt+"."+tullogoutsookt
-            //         szorasiIP = oktet1+"."+oktet2+"."+tullogohokt+"."+Number(tullogoutsookt+1)
-
-            //         oktet3 = tullogohokt
-            //         oktet4 = tullogoutsookt
-            //     }
-            //     else
-            //     {
-            //         utolsoIP = oktet1+"."+oktet2+"."+oktet3+"."+Number(oktet4+allomasokszama)
-            //         szorasiIP = oktet1+"."+oktet2+"."+oktet3+"."+Number(oktet4+allomasokszama+1)
-
-            //     }
-            //     oktet4+=allomasokszama+2
-                
             //Alh kiszámolás - Csapó 2
             let haloIP, elsoIP,utolsoIP,szorasiIP
             //Halózati cím
@@ -218,13 +170,23 @@ const EMH = () => {
             }
             szorasiIP=oktet1+"."+oktet2+"."+oktet3s+"."+oktet4s
 
+                if (index===0) {
+                    tab.innerHTML +=
+                    `<div class="enyhezold">
+                        <h3>`+Number(index+1)+`. alhálózat</h3>
+                        <h3>Alhálózati cím: `+haloIP+`<h3>
+                        <h3>Első kiosztható IP: `+elsoIP+`<h3>
+                        <h3>Utolsó kiosztható IP: `+utolsoIP+`<h3>
+                        <h3>Szórási cím: `+szorasiIP+`<h3>
+                    </div>`
+                }
                 tab.innerHTML +=
                 `<div class="enyhezold">
                     <h3>`+Number(index+1)+`. alhálózat</h3>
                     <h3>Alhálózati cím: `+haloIP+`<h3>
                     <h3>Első kiosztható IP: `+elsoIP+`<h3>
                     <h3>Utolsó kiosztható IP: `+utolsoIP+`<h3>
-                    <h3>Alhálózati cím: `+szorasiIP+`<h3>
+                    <h3>Szórási cím: `+szorasiIP+`<h3>
                 </div>`
             }
         }
