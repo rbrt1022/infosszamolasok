@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/infosszamolasok/static/css/main.9ce9fefa.css",
+    "main.css": "/infosszamolasok/static/css/main.6b9886f3.css",
     "main.js": "/infosszamolasok/static/js/main.e86342b7.js",
     "static/js/787.463022ca.chunk.js": "/infosszamolasok/static/js/787.463022ca.chunk.js",
     "static/media/neon-tropical-monstera-leaf-banner_53876-138943.avif": "/infosszamolasok/static/media/neon-tropical-monstera-leaf-banner_53876-138943.01e188b4cd246300e809.avif",
     "index.html": "/infosszamolasok/index.html",
-    "main.9ce9fefa.css.map": "/infosszamolasok/static/css/main.9ce9fefa.css.map",
+    "main.6b9886f3.css.map": "/infosszamolasok/static/css/main.6b9886f3.css.map",
     "main.e86342b7.js.map": "/infosszamolasok/static/js/main.e86342b7.js.map",
     "787.463022ca.chunk.js.map": "/infosszamolasok/static/js/787.463022ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce9fefa.css",
+    "static/css/main.6b9886f3.css",
     "static/js/main.e86342b7.js"
   ]
 }
