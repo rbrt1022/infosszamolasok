@@ -111,6 +111,7 @@ margin: 0;
   margin-right: 5%;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
